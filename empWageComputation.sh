@@ -10,3 +10,12 @@ then
 else
 	echo "Employee is Absent"
 fi
+
+#UC2 Started
+
+EmpRatePerHour=20
+Fulltime_EmpHr=8
+
+DailyWage=$(($EmpRatePerHour*$Fulltime_EmpHr))
+echo "Employee daily Wage is " $DailyWage
+
